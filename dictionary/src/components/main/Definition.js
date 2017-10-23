@@ -19,7 +19,11 @@ class Definition extends React.Component {
 
   onSearchDictionary = (terms) => {
     let definitionData = [];
+<<<<<<< HEAD
     let url = "http://Docker-ExternalLoa-1TT9HKQZXUOPU-1777478783.us-west-2.elb.amazonaws.com:3000/dictionary/";
+=======
+	let url = 'http://docker-externalloa-1tt9hkqzxuopu-1777478783.us-west-2.elb.amazonaws.com:3000/dictionary/';
+>>>>>>> 3b536223c242a5ff7d93d6cb522a9faba4f577af
     terms.forEach(value => {
       let tempDataArray = [];
       let dataArray = [];
